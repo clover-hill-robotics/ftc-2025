@@ -42,8 +42,8 @@ public final class Constants {
 
         public static final class Wrist {
             
-            final double FOLDED_IN   = 0.8333;
-            final double FOLDED_OUT  = 0.5;
+            public static final double FOLDED_IN   = 0.8333;
+            public static final double FOLDED_OUT  = 0.5;
             
         }
 
