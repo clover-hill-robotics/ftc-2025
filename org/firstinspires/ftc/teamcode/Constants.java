@@ -42,16 +42,16 @@ public final class Constants {
 
         public static final class Wrist {
             
-            final double WRIST_FOLDED_IN   = 0.8333;
-            final double WRIST_FOLDED_OUT  = 0.5;
+            final double FOLDED_IN   = 0.8333;
+            final double FOLDED_OUT  = 0.5;
             
         }
 
         public static final class Intake {
             
-            public static final double INTAKE_COLLECT    = -1.0;
-            public static final double INTAKE_OFF        =  0.0;
-            public static final double INTAKE_DEPOSIT    =  0.5;
+            public static final double COLLECT    = -1.0;
+            public static final double OFF        =  0.0;
+            public static final double DEPOSIT    =  0.5;
             
         }
         
