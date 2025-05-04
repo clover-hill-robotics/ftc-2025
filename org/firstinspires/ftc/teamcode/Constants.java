@@ -21,10 +21,40 @@ public final class Constants {
     }
 
     public static final class Scoring {
-        //Arm Crap
-        public static final int maxRotation = 3000;
-        public static final int minRotation = 0;
-        public static final int maxSpeed = 0;
+
+        public static final class Arm {
+            
+            public static final int MIN = 0;
+    
+            public static final int COLLAPSED_INTO_ROBOT  = 0;
+            public static final int COLLECT               = 250;
+            public static final int CLEAR_BARRIER         = 230;
+            public static final int SCORE_SPECIMEN        = 160;
+            public static final int SCORE_SAMPLE_IN_LOW   = 160;
+            public static final int ATTACH_HANGING_HOOK   = 120;
+            public static final int WINCH_ROBOT           = 15;
+            
+            public static final int MAX = 3000;
+            
+            public static final int MAX_POWER = 1;
+            
+        }
+
+        public static final class Wrist {
+            
+            final double WRIST_FOLDED_IN   = 0.8333;
+            final double WRIST_FOLDED_OUT  = 0.5;
+            
+        }
+
+        public static final class Intake {
+            
+            public static final double INTAKE_COLLECT    = -1.0;
+            public static final double INTAKE_OFF        =  0.0;
+            public static final double INTAKE_DEPOSIT    =  0.5;
+            
+        }
         
     }
+    
 }
